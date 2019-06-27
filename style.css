@@ -1,0 +1,89 @@
+/**************** css file for portfolio site of web designer Joe Vaughn ******************/
+
+/*  SECTIONS  */
+
+body {
+	width: 100%;
+}
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/******** End of Grid Section ********/
+
+/********  Typography   **********/
+
+body {
+    font-size: 100%;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+}
+h1 {
+	font-size: 2em;
+	font-weight: 800;
+}
+h2 {
+	font-size: 1.8em;
+	font-weight: 750;
+}
+h3 {
+	font-size: 1.6em;
+	font-weight: 700;
+}
+h4 {
+	font-size: 1.5em;
+	font-weight: 650;
+}
+
+/* images sizes */
+
+.thumbnail {
+	max-width: 80%;
+	padding: .5em 1em;
+	margin: .5em 0;
+}
+
+/* form */
+
+#formsection {
+	max-width: 90%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
