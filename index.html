@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Joe Vaughn :: Web Design Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Titillium+Web&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -14,12 +16,12 @@
     <main class="section group">
         <section id="column1" class="col span_1_of_2">
             <header>
-                <h1>Joe Vaughn</h1>
-                <span>Front-end Web Developer</span>
+                <h1 class="indent">Joe Vaughn</h1>
+                <span id="tagline">Front-end Web Developer</span>
             </header>
 
-            <section id="social-section">
-                <h2>Links</h2>
+            <section class="indent" id="social-section">
+                <h2 class="indent">Links</h2>
                 <div class="section group">
                     <!--<h2>Follow</h2>-->
                     <div class="col span_1_of_2">
@@ -35,9 +37,9 @@
 
             <!-- Contact Form  -->
 
-            <article id="formsection">
-                <h3>Contact Me</h3>
+            <article class="indent" id="formsection">
                 <form id="contact" name="contact" method="post" action="contact_process.php">
+                    <h3 class="indent">Contact Me</h3>
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required /><br>
 
@@ -52,7 +54,7 @@
         </section>
 
 
-        <section class="col span_1_of_2">
+        <section class="col span_1_of_2" id="column2">
             <h2>Work</h2>
 
             <ul class="section group">
@@ -105,7 +107,7 @@
     </main>
 
     <footer>
-        <h4>Website Designed by Joe Vaughn</h4>
+        <h4 class="indent">Website Designed by Joe Vaughn</h4>
     </footer>
 
 </body>

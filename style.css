@@ -39,27 +39,31 @@ body {
 
 body {
     font-size: 100%;
-    font-weight: 600;
-    font-family: sans-serif;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 h1 {
-	font-size: 2em;
-	font-weight: 800;
+	font-size: 2.5em;
+	font-weight: 700;
+}
+#tagline {
+	font-size: 1.8em;
+	font-weight: 700;
 }
 h2 {
-	font-size: 1.8em;
-	font-weight: 750;
+	font-size: 2.1em;
+	font-weight: 700;
 }
 h3 {
-	font-size: 1.6em;
+	font-size: 1.8em;
 	font-weight: 700;
 }
 h4 {
-	font-size: 1.5em;
-	font-weight: 650;
+	font-size: 1.75em;
+	font-weight: 600;
 }
 
 /* images sizes */
@@ -74,7 +78,34 @@ h4 {
 
 #formsection {
 	max-width: 90%;
+	margin-top: 1em;
+	padding-top: .5em;
 }
+
+form input {
+	line-height: 1.65em;
+	margin: .5em;
+	padding: .5em;
+}
+
+/************************ Style Improvements ***************************/
+
+.indent {
+	margin-left: 1em;
+}
+
+#tagline {
+	margin-left: .5em;
+}
+.social-link {
+	font-size: 1.3em;
+	line-height: 1.65em;
+	padding-bottom: 1em;
+}
+
+/********************Grid Effects*******************************/
+
+
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
@@ -86,4 +117,14 @@ h4 {
 
 @media only screen and (max-width: 480px) {
 	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+@media only screen and (min-width: 750px) {
+	#column1 {
+		width: 45%;
+		padding-right: .5em;
+	}
+	#column2 {
+		background-color: grey;
+	}
 }
