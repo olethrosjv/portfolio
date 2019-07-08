@@ -4,6 +4,7 @@
 
 body {
 	width: 100%;
+	height: auto;
 }
 .section {
 	clear: both;
@@ -15,7 +16,7 @@ body {
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 1.6%;
+	margin: .5% 0 1% 1.5%;
 }
 .col:first-child { margin-left: 0; }
 
@@ -62,17 +63,24 @@ h3 {
 	font-weight: 700;
 }
 h4 {
-	font-size: 1.75em;
+	font-size: 1.6em;
 	font-weight: 600;
 }
 
 /* images sizes */
+li{
+	max-width: 90%;
+}
 
 .thumbnail {
-	max-width: 80%;
-	padding: .5em 1em;
-	margin: .5em 0;
+	max-width: 90%;
+	padding: .5em .5em;
+	margin: 1em .5em 1em .5em;
+	border-style: outset;
+	border-width: .1em;
+	border-color: rgb(166, 191, 216, .83);
 }
+
 
 /* form */
 
@@ -89,7 +97,9 @@ form input {
 }
 
 /************************ Style Improvements ***************************/
-
+#column1 {
+	background-color: rgba(166, 191, 216, .83);
+}
 .indent {
 	margin-left: 1em;
 }
@@ -101,7 +111,9 @@ form input {
 	font-size: 1.3em;
 	line-height: 1.65em;
 	padding-bottom: 1em;
+	text-decoration: none;
 }
+
 
 /********************Grid Effects*******************************/
 
@@ -121,10 +133,10 @@ form input {
 
 @media only screen and (min-width: 750px) {
 	#column1 {
-		width: 45%;
+		width: 40%;
 		padding-right: .5em;
 	}
-	#column2 {
-		background-color: grey;
+	#column2 h2 {
+		text-align: center;
 	}
 }
