@@ -16,7 +16,7 @@ body {
 .col {
 	display: block;
 	float:left;
-	margin: .5% 0 1% 1.5%;
+	margin: .5% 0 1% 1%;
 }
 .col:first-child { margin-left: 0; }
 
@@ -67,20 +67,6 @@ h4 {
 	font-weight: 600;
 }
 
-/* images sizes */
-li{
-	max-width: 90%;
-}
-
-.thumbnail {
-	max-width: 90%;
-	padding: .5em .5em;
-	margin: 1em .5em 1em .5em;
-	border-style: outset;
-	border-width: .1em;
-	border-color: rgb(166, 191, 216, .83);
-}
-
 
 /* form */
 
@@ -88,6 +74,7 @@ li{
 	max-width: 90%;
 	margin-top: 1em;
 	padding-top: .5em;
+	margin-left: .5em;
 }
 
 form input {
@@ -96,12 +83,9 @@ form input {
 	padding: .5em;
 }
 
-/************************ Style Improvements ***************************/
+/************************ Layout ***************************/
 #column1 {
 	background-color: rgba(166, 191, 216, .83);
-}
-.indent {
-	margin-left: 1em;
 }
 
 #tagline {
@@ -113,6 +97,19 @@ form input {
 	padding-bottom: 1em;
 	text-decoration: none;
 }
+/* images sizes */
+li{
+	max-width: 90%;
+}
+
+.thumbnail {
+	max-width: 90%;
+	padding: .5em .5em;
+	margin: 1em .5em .25em .5em;
+	border-style: outset;
+	border-width: .1em;
+	border-color: rgb(166, 191, 216, .83);
+}
 
 
 /********************Grid Effects*******************************/
@@ -123,7 +120,7 @@ form input {
 
 @media only screen and (max-width: 480px) {
 	.col { 
-		margin: 1% 0 1% 0%;
+		margin: 1em .5em 1em 0em;
 	}
 }
 
@@ -138,5 +135,8 @@ form input {
 	}
 	#column2 h2 {
 		text-align: center;
+	}
+	li {
+		padding-bottom: 1em;
 	}
 }
