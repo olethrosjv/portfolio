@@ -37,30 +37,38 @@ body {
 /******** End of Grid Section ********/
 
 /********  Typography   **********/
-
+@font-face {
+	font-family: 'Rockaway-Beach';
+	src: url('fonts/RockawayBeach-Regular.woff') format('woff'),
+		 url('fonts/RockawayBeach-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
 body {
     font-size: 100%;
 	font-weight: 600;
 	font-family: 'Roboto', sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Hind Madurai', 'Karla', sans-serif;
-}
+
 h1 {
-	font-size: 2.5em;
+	font-family: 'Hind Madurai', 'Karla', sans-serif;
+	font-size: 3em;
 	font-weight: 700;
 }
 h2 {
-	font-size: 2.3em;
+	font-size: 2.7em;
 	font-weight: 700;
+	font-family: 'Rockaway-Beach','Hind Madurai', 'Karla', sans-serif;
 }
 h3 {
-	font-size: 1.8em;
+	font-size: 2.4em;
 	font-weight: 700;
+	font-family: 'Rockaway-Beach','Hind Madurai', 'Karla', sans-serif;
 }
 h4 {
-	font-size: 1.6em;
+	font-size: 2.1em;
 	font-weight: 600;
+	font-family: 'Rockaway-Beach','Hind Madurai', 'Karla', sans-serif;
 }
 
 /****************************Font Awesome *********************************/
