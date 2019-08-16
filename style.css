@@ -1,6 +1,6 @@
 /**************** css file for portfolio site of web designer Joe Vaughn ******************/
 
-/*  SECTIONS  */
+/*  Grid Section */
 
 body {
 	width: 100%;
@@ -16,7 +16,6 @@ body {
 .col {
 	display: block;
 	float:left;
-	margin: .5% 0 1% 1%;
 }
 .col:first-child { margin-left: 0; }
 
@@ -41,7 +40,7 @@ body {
 	font-family: 'Rockaway-Beach';
 	src: url('fonts/RockawayBeach-Regular.woff') format('woff'),
 		 url('fonts/RockawayBeach-Regular.woff2') format('woff2');
-	font-weight: normal;
+	font-weight: 600;
 	font-style: normal;
 }
 body {
@@ -58,18 +57,20 @@ h1 {
 h2 {
 	font-size: 2.7em;
 	font-weight: 700;
-	font-family: 'Rockaway-Beach','Hind Madurai', 'Karla', sans-serif;
+	font-family: 'Hind Madurai', 'Karla', sans-serif;
 }
 h3 {
 	font-size: 2.4em;
 	font-weight: 700;
-	font-family: 'Rockaway-Beach','Hind Madurai', 'Karla', sans-serif;
+	font-family: 'Hind Madurai', 'Karla', sans-serif;
 }
 h4 {
 	font-size: 2.1em;
 	font-weight: 600;
 	font-family: 'Rockaway-Beach','Hind Madurai', 'Karla', sans-serif;
 }
+
+/**********************  End of Typography Section ****************************/
 
 /****************************Font Awesome *********************************/
 .fa-linkedin {
@@ -99,7 +100,7 @@ form input {
 
 /************************ Layout ***************************/
 #column1 {
-	background-color: rgba(166, 191, 216, .83);
+	background-color: rgba(63, 87, 110, 0.83);
 }
 
 #tagline {
@@ -130,8 +131,8 @@ li{
 	padding: .5em .5em;
 	margin: 1em .5em .25em .5em;
 	border-style: outset;
-	border-width: .1em;
-	border-color: rgb(166, 191, 216, .83);
+	border-width: .2em;
+	border-color: rgba(44, 56, 70, 0.83);
 }
 
 
@@ -154,7 +155,9 @@ li{
 @media only screen and (min-width: 750px) {
 	#column1 {
 		width: 40%;
-		padding-right: .5em;
+		padding-right: .75em;
+		padding-left: 0;
+		margin: 0 .5em 1em 0;
 	}
 	#column2 h2 {
 		text-align: center;
