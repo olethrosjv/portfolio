@@ -115,9 +115,6 @@ form input {
 	text-decoration: none;
 }
 
-.screen-reader-only {
-	display: none;
-}
 /* images sizes */
 img {
 	max-width: 100%;
@@ -126,13 +123,20 @@ li{
 	max-width: 90%;
 }
 
-.thumbnail {
+figure {
 	max-width: 90%;
 	padding: .5em .5em;
 	margin: 1em .5em .25em .5em;
+	
+}
+
+figure img {
+	max-width: 90%;
+	max-height: 90%;
+
 	border-style: outset;
-	border-width: .2em;
-	border-color: rgba(44, 56, 70, 0.83);
+	border-width: .1em;
+	border-color: rgba(54, 71, 90, 0.83);
 }
 
 
@@ -158,6 +162,9 @@ li{
 		padding-right: .75em;
 		padding-left: 0;
 		margin: 0 .5em 1em 0;
+	}
+	#column2 {
+		padding-left: 2em;
 	}
 	#column2 h2 {
 		text-align: center;
