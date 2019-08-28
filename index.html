@@ -45,7 +45,7 @@
 
             <!-- Contact Form  -->
 
-            <article id="formsection">
+            <section id="formsection">
                 <form id="contact" name="contact" method="post" action="contact_process.php" data-netlify="true">
                     <h3>Contact Me</h3>
                     <label for="name">Name:</label>
@@ -56,9 +56,17 @@
 
                     <label for="comments">What can I do for you:</label><br>
                     <textarea rows="6" cols="40" name="comments" id="comments"></textarea><br><br>
-                </form>
-            </article>
 
+                    <input type="submit" name="submit" value="Send" />
+
+                </form>
+            </section>
+            <div class="zone">
+                <button>
+                  <span class="bodymovin"></span>
+                  <span class="text">Call to Action</span>
+                </button>
+              </div>
         </section>
 
 
@@ -139,7 +147,7 @@
     <footer>
         <h4 class="indent">Website Designed by Joe Vaughn</h4>
     </footer>
-
+    <script type="javascript" src="js/portfolio.js"></script>
 </body>
 
 </html>
