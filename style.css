@@ -3,7 +3,7 @@
 /*  Grid Section */
 
 body {
-	width: 100%;
+	width: 1000%;
 	height: auto;
 }
 .section {
@@ -15,6 +15,7 @@ body {
 header {
 	align-content: center;
 }
+
 
 /*  COLUMN SETUP  */
 .col {
@@ -87,20 +88,6 @@ h4 {
   } 
 
 
-/* form */
-
-#formsection {
-	max-width: 90%;
-	margin-top: 1em;
-	padding-top: .5em;
-	margin-left: .5em;
-}
-
-form input {
-	line-height: 1.65em;
-	margin: .5em;
-	padding: .5em;
-}
 
 /************************ Layout ***************************/
 #column1 {
@@ -210,23 +197,20 @@ button:hover .text {
 }
 
 @media only screen and (max-width: 480px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
+	.span_2_of_2, .span_1_of_2 {
+		width: 100%;
+	 }
+	 
 }
 
-/*@media only screen and (min-width: 750px) {
-	#column1 {
-		width: 40%;
-		padding-right: .75em;
-		padding-left: 1em;
-		margin: 0 .5em 1em 0;
-	}
-	#column2 {
-		padding-left: 2em;
-	}
-	#column2 h2 {
-		text-align: center;
-	}
-	li {
-		padding-bottom: 1em;
-	}
-}*/
+@media only screen and (min-width: 750px) {
+	  body {
+		width: 80%;
+		margin: auto;
+	 }
+	 h1, h2, h3 {
+		align-content: center;
+		margin-left: 10%;
+	 }
+	
+}
