@@ -34,7 +34,7 @@ body {
 
 h1 {
 	font-family: 'Righteous', 'Karla', sans-serif;
-	font-size: 3em;
+	font-size: 4em;
 	font-weight: 700;
 }
 h2 {
@@ -68,9 +68,6 @@ h4 {
 
 
 /************************ Layout ***************************/
-/*#column1 {
-	background-color: rgba(141, 162, 182, 0.63);
-}*/
 
 #column1 {
 	background: linear-gradient(to right, #A95F17, #DB9149, #A95F17);
@@ -81,7 +78,7 @@ h4 {
 }
 .social-link {
 	max-width: 100%;
-	font-size: 1.8em;
+	font-size: 2.5em;
 	line-height: 2em;
 	margin-bottom: 1.5em;
 	padding: 1em;
@@ -127,7 +124,7 @@ figure img {
 
 @media only screen and (min-width: 750px) {
 	  body {
-		width: 80%;
+		width: 85%;
 		margin: auto;
 	 }
 	 h1, h2, h3 {
