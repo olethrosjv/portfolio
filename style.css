@@ -84,6 +84,9 @@ h4 {
 	padding: 1em;
 	text-decoration: none;
 }
+#codepen {
+	color: black;
+}
 
 /* images sizes */
 img {
