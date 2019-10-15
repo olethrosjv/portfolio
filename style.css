@@ -120,14 +120,14 @@ figure img {
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.col { 
+	/*.col { 
 		margin: 1em .5em 1em 0em;
-	}
+	}*/
 }
 
 @media only screen and (min-width: 750px) {
 	  body {
-		width: 85%;
+		width: 100%;
 		margin: auto;
 	 }
 	 h1, h2, h3 {
