@@ -23,18 +23,17 @@
      font-family: Roboto;
  }
 .div1 .logo {
+    width: 100%;
     max-width: 100%;
 }
 
 .logo > img {
-    width: 100%;
     height: 100%;
     max-width: 100%;
 }
 
 .div2 {
     max-width: 100%;
-    margin-left: none;
 }
 
  header ul {
@@ -45,6 +44,7 @@
  header li {
     font-size: 3.5em;
     display: inline;
+    padding-right: .5em;
  }
 /*********************Main Site Content*********************/
 
@@ -53,6 +53,11 @@
     line-height: 3em;
 }
 
+.div3 {
+    max-width: 100%;
+    margin-bottom: 1em;
+
+}
 .div3 article {
     display: flex;
     max-width: 100%;
@@ -69,10 +74,13 @@
 .img-container img{
     display: block;
     max-width: 500px;
+    margin-bottom: 1em;
 }
 
 .site-description {
     display: flex;
+    line-height: 1.4em;
+
 }
 /****************************Font Awesome *********************************/
 
@@ -171,7 +179,7 @@ h1, h2, figcaption {
     .div5 { grid-area: 4/1/5/3; } 
 
     .div1 .logo {
-        width: 30%;
+        width: 20%;
     }
 
     header ul {
@@ -181,6 +189,7 @@ h1, h2, figcaption {
     header li {
         display: inline;
         font-size: 5em;
+        padding-right: 1em;
     }
     header a {
         text-decoration: none;
@@ -207,4 +216,6 @@ h1, h2, figcaption {
         display: block;
         max-width: 800px;
     }
+
+   
 }
