@@ -73,6 +73,7 @@
 
 .img-container img{
     display: block;
+    max-width: 95vw;
     max-width: 500px;
     margin-bottom: 1em;
 }
