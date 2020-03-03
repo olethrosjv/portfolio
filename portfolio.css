@@ -50,13 +50,13 @@ header {
 
  header ul {
     list-style-type: none;
-    margin-right: 2em;
+    
  }
 
  header li {
     font-size: 3em;
     display: inline;
-    padding-right: .5em;
+    padding-right: .2em;
  }
 /*********************Main Site Content*********************/
 
