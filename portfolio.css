@@ -44,6 +44,10 @@
     padding-bottom: .25em;
 }
 
+header {
+    margin-left: .5em;
+}
+
  header ul {
     list-style-type: none;
     margin-right: 2em;
@@ -99,13 +103,11 @@
 	background: #007bb5;
     color: white;
     text-align: center;
-    padding: .1em;
   }
   .fa-twitter {
 	background: #55ACEE;
     color: white;
     text-align: center;
-    padding: .1em;
   } 
 
   a .social-link {
@@ -113,7 +115,7 @@
 	font-size: 3em;
 	line-height: 3.5em;
 	margin-bottom: .5em;
-	padding: .5em;
+	padding: .25em;
 	text-decoration: none;
 }
 #codepen {
@@ -195,10 +197,6 @@ h1, h2, figcaption {
         width: 20%;
     }
 
-   /* .div2 {
-        padding-bottom: -5em;
-        margin-bottom: -5em;
-    }*/
 
     header ul {
         justify-content: center;
