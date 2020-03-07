@@ -75,7 +75,9 @@ header li {
   line-height: 1.5em;
   justify-content: space-between;
 }
-
+.div4 {
+    margin-top: -1em;
+}
 .div4 section {
   display: flex;
 }
@@ -189,6 +191,7 @@ button a {
   }
   .div4 {
     grid-area: 2/2/4/3;
+    margin-top: -2em;
   }
   .div5 {
     grid-area: 4/1/5/3;
