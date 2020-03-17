@@ -21,14 +21,15 @@ body {
   max-width: 100vw;
   font-family: Roboto;
   color: white;
- /* background-color: rgb(48, 44, 44);*/
-  background-image: url("images/lightning-background.jpg");
+  background-color: #FE6D74;
+  /*  background-image: url("images/lightning-background.jpg");*/
 }
 .div1 .logo {
   width: 100%;
   max-width: 100%;
   height: auto;
-  padding-bottom: 0.25em;
+  margin-bottom: 0.5em;
+  margin-left: 2em;
 }
 
 .logo > img {
@@ -55,6 +56,7 @@ header li {
   font-size: 3em;
   display: inline;
   padding-right: 0.2em;
+  
 }
 /*********************Main Site Content*********************/
 
@@ -67,14 +69,22 @@ header li {
 .div3 {
   max-width: 100%;
   margin-bottom: 1em;
+  margin: 1.5em 2em 1em;
 }
 .div3 aside {
   display: flex;
   max-width: 100%;
-  padding: 0 0.25em;
+  padding: 1em;
   font-size: 1.25em;
   line-height: 1.5em;
   justify-content: space-between;
+
+  border-radius: 50px;
+  background: #FE6D74;
+  box-shadow:  20px 20px 60px #b95055, 
+               -20px -20px 60px #ff8a93;
+
+ 
 }
 .div4 {
     margin-top: -1em;
@@ -96,6 +106,16 @@ header li {
 }
 /****************************Font Awesome *********************************/
 
+
+
+.fa {
+  margin-top: 0.5em;
+  padding: .2em;
+  border-radius: 15px;
+  /*background: #8e2b3e;*/
+  box-shadow:  10px 10px 30px #792535, 
+             -10px -10px 30px #a33147;
+}
 .fa-linkedin {
   background: #007bb5;
   color: white;
@@ -111,8 +131,8 @@ a .social-link {
   max-width: 100%;
   font-size: 3em;
   line-height: 3.5em;
-  margin-bottom: 0.5em;
-  padding: 0.25em;
+  /*margin-bottom: 0.5em;*/
+  padding: 0.5em;
   text-decoration: none;
 }
 #codepen {
@@ -125,8 +145,11 @@ header a {
 
 h1,
 h2,
+h3,
+h4,
 figcaption {
   font-family: "Open Sans";
+  color: black;
 }
 
 /************************************** Contact Button Styles  ******************************/
@@ -172,6 +195,10 @@ button a {
   margin-bottom: 1em;
   padding-bottom: 0.5em;
   border-bottom: 0.5px outset yellow;
+}
+
+figure {
+  border: 3px solid hsl(var(--hue), 100%, 41%);
 }
 
 /********************* Grid area for social links on mobile **********************************/
